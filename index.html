@@ -1,0 +1,448 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="#home" class="logo">HK</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="hero-name">Himanshu Kumar</h1>
+                <h2 class="hero-title">
+                    <span class="static-text">I'm a </span>
+                    <span class="typed" id="typed"></span>
+                </h2>
+                <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://drive.google.com/file/d/12CCk_ACx6wSCCKf_onpPQfJNNqsKrjQc/view?usp=sharing"
+                        target="_blank" class="btn btn-secondary">Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Himanshukumar16" target="_blank" class="social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/himanshu-kumar-9281a8326/" target="_blank"
+                        class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:himanshu.k.upadhyay05@gmail.com" class="social-link"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" style="z-index: 1;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">ABOUT <strong>ME</strong></h2>
+            <div class="about-content glass-card" data-aos="fade-up" data-aos-delay="100">
+                <h3 style="font-size: 22px; color: #64ffda; margin-bottom: 16px;">Pursuing B.Tech in AI &amp; Data
+                    Science</h3>
+                <h4 style="font-size: 18px; color: rgba(255,255,255,0.8); margin-bottom: 24px;">from Guru Gobind Singh
+                    Indraprastha University</h4>
+                <p>A tech geek, coding enthusiast, team player, web developer, and aspiring software engineer.
+                    Passionate about Data Structures, Algorithms, and Backend Development. I enjoy designing practical
+                    solutions and translating ideas into functional applications. Analytical and dedicated with a
+                    passion for technology. I am open to grow out of my comfort zone every day and take pride in
+                    delivering quality work.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My <strong>Education</strong></h2>
+            <div class="education-grid">
+                <div class="education-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-icon">🎓</div>
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <h4>Computer Science (AI &amp; DS)</h4>
+                    <p class="institution">Guru Gobind Singh Indraprastha University, Delhi</p>
+                    <p class="period">2024 – 2028</p>
+                    <p class="grade">CGPA: 8.14</p>
+                </div>
+                <div class="education-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="education-icon">📚</div>
+                    <h3>Class 12 (Senior Secondary)</h3>
+                    <p class="institution">Vanasthali Public School</p>
+                    <p class="period">2023 – 2024</p>
+                    <p class="grade">80%</p>
+                </div>
+                <div class="education-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="education-icon">📖</div>
+                    <h3>Class 10 (Secondary)</h3>
+                    <p class="institution">Vanasthali Public School</p>
+                    <p class="period">2021 – 2022</p>
+                    <p class="grade">92%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">TECHNICAL <strong>SKILLS</strong></h2>
+            <div class="tech-skills-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="tech-skills-grid">
+                    <!-- Python -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-python">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <defs>
+                                    <linearGradient id="pythonBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#3776ab;stop-opacity:1"></stop>
+                                        <stop offset="100%" style="stop-color:#366994;stop-opacity:1"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="pythonYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ffd343;stop-opacity:1"></stop>
+                                        <stop offset="100%" style="stop-color:#ffca1c;stop-opacity:1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path
+                                    d="M 30,10 Q 25,10 25,15 L 25,30 L 40,30 L 40,35 L 15,35 Q 10,35 10,40 L 10,60 Q 10,65 15,65 L 30,65 L 30,50 L 45,50 L 45,85 Q 45,90 50,90 L 70,90 Q 75,90 75,85 L 75,70 L 60,70 L 60,65 L 85,65 Q 90,65 90,60 L 90,40 Q 90,35 85,35 L 70,35 L 70,50 L 55,50 L 55,15 Q 55,10 50,10 Z"
+                                    fill="url(#pythonBlue)"></path>
+                                <path
+                                    d="M 70,10 Q 75,10 75,15 L 75,30 L 60,30 L 60,35 L 85,35 Q 90,35 90,40 L 90,60 Q 90,65 85,65 L 70,65 L 70,50 L 55,50 L 55,85 Q 55,90 50,90 L 30,90 Q 25,90 25,85 L 25,70 L 40,70 L 40,65 L 15,65 Q 10,65 10,60 L 10,40 Q 10,35 15,35 L 30,35 L 30,50 L 45,50 L 45,15 Q 45,10 50,10 Z"
+                                    fill="url(#pythonYellow)" opacity="0.9"></path>
+                                <circle cx="35" cy="20" r="3" fill="#ffd343"></circle>
+                                <circle cx="65" cy="80" r="3" fill="#3776ab"></circle>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Python</span>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-java">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <path d="M 30,70 Q 28,75 32,77 Q 40,80 50,80 Q 60,80 68,77 Q 72,75 70,70" fill="none"
+                                    stroke="#f89820" stroke-width="3"></path>
+                                <path d="M 35,60 Q 33,65 37,67 Q 42,69 50,69 Q 58,69 63,67 Q 67,65 65,60" fill="none"
+                                    stroke="#f89820" stroke-width="3"></path>
+                                <path d="M 45,45 Q 43,40 45,35 L 45,25" fill="none" stroke="#5382a1" stroke-width="3"
+                                    stroke-linecap="round"></path>
+                                <ellipse cx="50" cy="22" rx="8" ry="5" fill="#5382a1"></ellipse>
+                                <text x="50" y="55" font-size="28" font-weight="bold" fill="#f89820"
+                                    text-anchor="middle">J</text>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Java</span>
+                    </div>
+
+                    <!-- C -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-c">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <circle cx="50" cy="50" r="35" fill="none" stroke="#A8B9CC" stroke-width="8"></circle>
+                                <path d="M 65,30 Q 75,35 75,50 Q 75,65 65,70" fill="none" stroke="#A8B9CC"
+                                    stroke-width="8" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
+                        <span class="tech-name">C</span>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-js">
+                            <div class="js-box">
+                                <span class="js-text">JS</span>
+                            </div>
+                        </div>
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+
+                    <!-- HTML5 -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-html">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <polygon points="50,10 15,20 20,80 50,90 80,80 85,20" fill="#e34f26"></polygon>
+                                <polygon points="50,20 50,85 75,77 78,25" fill="#f06529"></polygon>
+                                <text x="50" y="60" font-size="24" font-weight="bold" fill="white"
+                                    text-anchor="middle">5</text>
+                            </svg>
+                        </div>
+                        <span class="tech-name">HTML5</span>
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-css">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <polygon points="50,10 15,20 20,80 50,90 80,80 85,20" fill="#1572b6"></polygon>
+                                <polygon points="50,20 50,85 75,77 78,25" fill="#33a9dc"></polygon>
+                                <text x="50" y="60" font-size="24" font-weight="bold" fill="white"
+                                    text-anchor="middle">3</text>
+                            </svg>
+                        </div>
+                        <span class="tech-name">CSS3</span>
+                    </div>
+
+                    <!-- Spring -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-spring">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <path
+                                    d="M 35,45 Q 30,35 35,25 Q 40,15 50,20 Q 55,22 58,28 L 65,40 Q 70,50 65,60 Q 60,70 50,75 Q 45,77 40,73 L 30,65 Q 25,58 28,50 Z"
+                                    fill="#6db33f"></path>
+                                <path
+                                    d="M 50,30 Q 48,35 50,40 Q 52,42 55,42 Q 58,40 58,37 Q 58,33 55,32 Q 52,31 50,30 Z"
+                                    fill="#4a9931"></path>
+                                <path d="M 42,55 Q 45,50 50,52 Q 53,54 52,58 Q 50,62 46,61 Q 42,59 42,55 Z"
+                                    fill="#4a9931"></path>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Spring</span>
+                    </div>
+
+                    <!-- Spring Boot -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-springboot">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <circle cx="50" cy="50" r="38" fill="#6db33f"></circle>
+                                <path d="M 70,25 Q 80,30 75,40 Q 70,50 60,48 Q 50,46 45,50 Q 40,54 35,60 Q 30,66 25,70"
+                                    fill="none" stroke="white" stroke-width="4" stroke-linecap="round"></path>
+                                <circle cx="72" cy="28" r="5" fill="white"></circle>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Spring Boot</span>
+                    </div>
+
+                    <!-- Hibernate -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-hibernate">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <rect x="20" y="25" width="25" height="50" fill="#59666c" rx="3"></rect>
+                                <rect x="55" y="25" width="25" height="50" fill="#59666c" rx="3"></rect>
+                                <rect x="30" y="40" width="40" height="8" fill="#bcae79"></rect>
+                                <rect x="30" y="55" width="40" height="8" fill="#bcae79"></rect>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Hibernate</span>
+                    </div>
+
+                    <!-- JDBC -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-jdbc">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <ellipse cx="50" cy="35" rx="30" ry="10" fill="#007396"></ellipse>
+                                <rect x="20" y="35" width="60" height="30" fill="#007396"></rect>
+                                <ellipse cx="50" cy="65" rx="30" ry="10" fill="#007396"></ellipse>
+                                <ellipse cx="50" cy="35" rx="30" ry="10" fill="#00a8e1" opacity="0.5"></ellipse>
+                            </svg>
+                        </div>
+                        <span class="tech-name">JDBC</span>
+                    </div>
+
+                    <!-- JPA -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-jpa">
+                            <div class="jpa-box">
+                                <span class="jpa-text">JPA</span>
+                            </div>
+                        </div>
+                        <span class="tech-name">JPA</span>
+                    </div>
+
+                    <!-- MySQL -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-mysql">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <path
+                                    d="M 20,45 Q 20,35 30,32 Q 35,30 40,32 L 45,35 Q 48,38 50,38 L 55,35 Q 60,32 65,35 Q 70,38 72,45 L 75,55 Q 75,60 72,63 L 68,65 Q 65,66 62,64 L 58,60 Q 55,58 52,60 L 48,65 Q 45,68 40,68 Q 35,68 30,65 L 25,58 Q 20,52 20,45 Z"
+                                    fill="#4479A1"></path>
+                                <ellipse cx="35" cy="42" rx="3" ry="4" fill="white"></ellipse>
+                                <ellipse cx="65" cy="42" rx="3" ry="4" fill="white"></ellipse>
+                                <path d="M 40,52 Q 45,55 50,55 Q 55,55 60,52" fill="none" stroke="white"
+                                    stroke-width="2" stroke-linecap="round"></path>
+                                <path
+                                    d="M 72,48 Q 75,50 78,48 Q 80,45 82,48 L 85,52 Q 87,55 85,58 L 82,60 Q 78,61 76,58 Z"
+                                    fill="#F29111"></path>
+                            </svg>
+                        </div>
+                        <span class="tech-name">MySQL</span>
+                    </div>
+
+                    <!-- PostgreSQL -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-postgresql">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <path
+                                    d="M 45,20 Q 35,22 32,30 L 30,40 Q 28,50 30,60 L 32,70 Q 35,75 40,75 L 42,78 Q 43,82 45,85 L 48,88 Q 50,89 52,88 L 54,85 Q 55,82 55,78 L 55,70 Q 58,68 60,65 L 65,58 Q 68,50 68,42 L 68,32 Q 66,25 60,22 Q 55,20 50,20 Q 48,20 45,20 Z"
+                                    fill="#336791"></path>
+                                <ellipse cx="42" cy="35" rx="3" ry="4" fill="white"></ellipse>
+                                <ellipse cx="58" cy="35" rx="3" ry="4" fill="white"></ellipse>
+                                <path d="M 50,28 Q 48,26 45,28 L 42,32" fill="none" stroke="#2d5477" stroke-width="2">
+                                </path>
+                                <path d="M 50,28 Q 52,26 55,28 L 58,32" fill="none" stroke="#2d5477" stroke-width="2">
+                                </path>
+                                <circle cx="40" cy="36" r="1.5" fill="#1a1a1a"></circle>
+                                <circle cx="60" cy="36" r="1.5" fill="#1a1a1a"></circle>
+                            </svg>
+                        </div>
+                        <span class="tech-name">PostgreSQL</span>
+                    </div>
+
+                    <!-- Data Structures -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-ds">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <circle cx="50" cy="20" r="8" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                                <line x1="50" y1="28" x2="35" y2="45" stroke="#00bcd4" stroke-width="3"></line>
+                                <line x1="50" y1="28" x2="65" y2="45" stroke="#00bcd4" stroke-width="3"></line>
+                                <circle cx="35" cy="50" r="8" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                                <circle cx="65" cy="50" r="8" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                                <line x1="35" y1="58" x2="25" y2="75" stroke="#00bcd4" stroke-width="3"></line>
+                                <line x1="35" y1="58" x2="45" y2="75" stroke="#00bcd4" stroke-width="3"></line>
+                                <line x1="65" y1="58" x2="55" y2="75" stroke="#00bcd4" stroke-width="3"></line>
+                                <line x1="65" y1="58" x2="75" y2="75" stroke="#00bcd4" stroke-width="3"></line>
+                                <circle cx="25" cy="80" r="6" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                                <circle cx="45" cy="80" r="6" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                                <circle cx="55" cy="80" r="6" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                                <circle cx="75" cy="80" r="6" fill="#00bcd4" stroke="white" stroke-width="2"></circle>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Data Structures</span>
+                    </div>
+
+                    <!-- Algorithms -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-algo">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <rect x="15" y="15" width="30" height="20" fill="#9c27b0" rx="3" stroke="white"
+                                    stroke-width="2"></rect>
+                                <rect x="55" y="15" width="30" height="20" fill="#9c27b0" rx="3" stroke="white"
+                                    stroke-width="2"></rect>
+                                <polygon points="50,50 35,60 65,60" fill="#9c27b0" stroke="white" stroke-width="2">
+                                </polygon>
+                                <rect x="15" y="75" width="30" height="20" fill="#9c27b0" rx="3" stroke="white"
+                                    stroke-width="2"></rect>
+                                <rect x="55" y="75" width="30" height="20" fill="#9c27b0" rx="3" stroke="white"
+                                    stroke-width="2"></rect>
+                                <line x1="30" y1="35" x2="30" y2="50" stroke="white" stroke-width="2"></line>
+                                <line x1="70" y1="35" x2="70" y2="50" stroke="white" stroke-width="2"></line>
+                                <line x1="30" y1="50" x2="40" y2="55" stroke="white" stroke-width="2"></line>
+                                <line x1="70" y1="50" x2="60" y2="55" stroke="white" stroke-width="2"></line>
+                                <line x1="35" y1="60" x2="30" y2="75" stroke="white" stroke-width="2"></line>
+                                <line x1="65" y1="60" x2="70" y2="75" stroke="white" stroke-width="2"></line>
+                            </svg>
+                        </div>
+                        <span class="tech-name">Algorithms</span>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="tech-icon glass-card">
+                        <div class="tech-logo tech-logo-github">
+                            <svg viewBox="0 0 100 100" width="60" height="60">
+                                <path
+                                    d="M 50,15 Q 30,15 18,27 Q 6,39 6,59 Q 6,74 15,84 Q 20,89 27,91 Q 29,91 30,89 L 30,82 Q 30,78 32,76 Q 26,75 22,71 Q 18,67 18,59 Q 18,52 22,47 Q 21,44 22,40 Q 23,36 26,36 Q 28,36 32,38 Q 38,35 50,35 Q 62,35 68,38 Q 72,36 74,36 Q 77,36 78,40 Q 79,44 78,47 Q 82,52 82,59 Q 82,67 78,71 Q 74,75 68,76 Q 70,78 70,82 L 70,89 Q 70,91 72,91 Q 79,89 84,84 Q 93,74 93,59 Q 93,39 81,27 Q 69,15 50,15 Z"
+                                    fill="#181717"></path>
+                                <circle cx="50" cy="50" r="8" fill="#181717"></circle>
+                                <ellipse cx="42" cy="48" rx="4" ry="6" fill="#181717"></ellipse>
+                                <ellipse cx="58" cy="48" rx="4" ry="6" fill="#181717"></ellipse>
+                            </svg>
+                        </div>
+                        <span class="tech-name">GitHub</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">PROJECTS &amp; <strong>ACCOMPLISHMENTS</strong></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-header">
+                        <h3>Spotify Clone</h3>
+                        <span class="project-year">2025</span>
+                    </div>
+                    <p class="project-description">A pixel-perfect front-end replica of Spotify's web UI focusing on
+                        layout, colors and responsive player interactions.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Himanshukumar16/clones" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">WANNA <strong>TALK</strong></h2>
+            <div class="contact-content glass-card" data-aos="fade-up" data-aos-delay="100">
+                <p class="contact-description">Interested to start your next project with me? That's great! Just ping
+                    me. Send me an email and I will get back to you as soon as possible!</p>
+                <div class="contact-info">
+                    <a href="mailto:himanshu.k.upadhyay05@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>himanshu.k.upadhyay05@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/Himanshukumar16" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/Himanshukumar16</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/himanshu-kumar-9281a8326/" target="_blank"
+                        class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/himanshu-kumar</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Himanshu Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
