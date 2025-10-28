@@ -1059,6 +1059,22 @@ body::before {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+#about {
+  position: relative;
+  margin-top: 180px;  /* push it down below buttons */
+  z-index: 1;
+}
+
+#about h2, #about h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero, .intro, #home {
+  z-index: 2;
+  position: relative;
+}
+
 /* CRITICAL FIX: Fixed height container to prevent layout shift */
 .hero-title {
   font-size: 36px;
@@ -1213,7 +1229,7 @@ body::before {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  animation: scroll 0.5s infinite;
+  animation: scroll 6s infinite;
 }
 
 @keyframes scroll {
@@ -1236,7 +1252,7 @@ body::before {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10rem auto;
 }
 
 .section-title {

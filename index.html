@@ -46,7 +46,7 @@
                     <a href="https://drive.google.com/file/d/12CCk_ACx6wSCCKf_onpPQfJNNqsKrjQc/view?usp=sharing"
                         target="_blank" class="btn btn-secondary">Download CV</a>
                 </div>
-                <div class="social-links">
+                <div class="social-links"">
                     <a href="https://github.com/Himanshukumar16" target="_blank" class="social-link"><i
                             class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/himanshu-kumar-9281a8326/" target="_blank"
@@ -441,24 +441,7 @@
         <p>© 2025 Himanshu Kumar. All rights reserved.</p>
     </footer>
 
-    <script src="app.js">
-    window.addEventListener('scroll', () => {
-  const scrollBar = document.querySelector('.scroll-progress');
-  const heroHeight = document.querySelector('.hero')?.offsetHeight || 500; // change ".hero" to your section class
-  const scrolled = window.scrollY;
-  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-  const progress = (scrolled / docHeight) * 100;
-
-  scrollBar.style.width = progress + "%";
-
-  // show bar only after hero section
-  if (scrolled > heroHeight - 100) {
-    scrollBar.style.opacity = "1";
-  } else {
-    scrollBar.style.opacity = "0";
-  }
-});
-</script>
+    <script src="app.js"></script>
 
 </body>
 
