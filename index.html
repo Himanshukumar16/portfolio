@@ -441,7 +441,24 @@
         <p>© 2025 Himanshu Kumar. All rights reserved.</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="app.js">
+    window.addEventListener('scroll', () => {
+  const scrollBar = document.querySelector('.scroll-progress');
+  const heroHeight = document.querySelector('.hero')?.offsetHeight || 500; // change ".hero" to your section class
+  const scrolled = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = (scrolled / docHeight) * 100;
+
+  scrollBar.style.width = progress + "%";
+
+  // show bar only after hero section
+  if (scrolled > heroHeight - 100) {
+    scrollBar.style.opacity = "1";
+  } else {
+    scrollBar.style.opacity = "0";
+  }
+});
+</script>
 
 </body>
 
